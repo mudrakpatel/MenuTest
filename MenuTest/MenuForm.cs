@@ -16,16 +16,5 @@ namespace MenuTest
         {
             InitializeComponent();
         }
-
-        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("This is about Menus.","Menus demo", MessageBoxButtons.OKCancel,
-                MessageBoxIcon.Information);
-        }
-
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }
