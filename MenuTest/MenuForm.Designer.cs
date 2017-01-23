@@ -34,6 +34,7 @@
             // 
             this.ClientSize = new System.Drawing.Size(441, 262);
             this.Name = "MenuForm";
+            this.Text = "Menu form";
             this.ResumeLayout(false);
 
         }
